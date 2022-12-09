@@ -24,10 +24,14 @@ export const { styled, css } = createStitches({
     fontWeights: {},
     lineHeights: {},
     letterSpacings: {},
-    sizes: {},
+    sizes: {
+      6: '64px',
+    },
     borderWidths: {},
     borderStyles: {},
-    radii: {},
+    radii: {
+      1: '2px',
+    },
     shadows: {},
     zIndices: {},
     transitions: {},
