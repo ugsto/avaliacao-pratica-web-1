@@ -29,13 +29,13 @@ const Container = styled('header', {
   },
 });
 
-export default function header() {
-  return (
-    <Container>
-      <a href="/">
-        <img src={logo as string}></img>
-      </a>
-      <NavMenu items={navItems} />
-    </Container>
-  );
-}
+const header: React.FunctionComponent = () => (
+  <Container>
+    <a href="/">
+      <img src={logo as string}></img>
+    </a>
+    <NavMenu items={navItems} />
+  </Container>
+);
+
+export default header;
